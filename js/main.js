@@ -1,3 +1,9 @@
+var dia = new MessageDialog("#dialogOne");
+
 $(document).ready(function() {
-	$("#opacity").css({background: Random.randRGB(true)});
+	$("body").click(function(e) {
+	});
+	$("body").click(function() {
+		Dialogs.toggle(dia);
+	});
 });
